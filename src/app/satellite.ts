@@ -12,4 +12,16 @@ export class Satellite {
     this.orbitType = orbitType;
     this.operational = operational;
   }
+
+  shouldShowWarning(): boolean {
+    let warning: boolean = true;
+    let debris: string = "Space Debris";
+    
+    if (this.type = debris.toLowerCase()) {
+      warning;
+    } else {
+      warning = false;
+    }
+    return warning;
+  }
 }
